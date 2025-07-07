@@ -6,22 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Modern Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <!-- link file css -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
         <nav class="contanier">
-            <img class="logo" src="img/logo.png" alt="">
-            <i id="btn-menu" class="fa-solid fa-bars"></i>
+            <img class="logo" src="img/logo1.png" alt="AK Code Logo">
             <div class="nav-links">
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#Portfolio">Portfolio</a>
                 <a href="#Contact">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
             </div>
+            <button id="btn-menu" class="fa-solid fa-bars"></button>
         </nav>
     </header>
 <!-- start home sec -->
@@ -32,7 +38,7 @@
                 <h1>Ahmed Kandiel (AK Code)</h1>
 
                 <p>Front-End Developer</p>
-                <a href="https://limewire.com/d/bf07a7bc-70ad-4dea-a233-9b3f0e0a821a#XXdqr3JwLutkUkBA23JV3ABFMM7djQCpwZSkFeIuqGs" class="btn">Download CV</a>
+                <a href="https://drive.google.com/file/d/16gsqeXbexMIwUDBGBaWG8kkCEu--Gkx2/view?usp=drive_link" class="btn">Download CV</a>
             </div>
 
             <div class="hero-img">
@@ -50,15 +56,32 @@
             </div>
             <div class="content">
                 <h1>About <span>Me</span></h1>
-                <h3>Front-End Developer</h3>
-                <p>AKcode, I specialize in creating interactive, responsive, and user-friendly web applications. With a strong background in HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.js, I bring modern design and functionality to life on the web. My goal is to build seamless user experiences that not only look great but also perform exceptionally well across all devices and platforms.
-                    I am always focused on optimizing code for performance and maintaining clean, reusable components, ensuring that projects are scalable and easy to manage. Collaboration is key to my workflow, and I thrive in dynamic teams that embrace the latest technologies and agile methodologies.
-                    
-                    </p>
-                     <div class="btns">
-                      
-                        <a href="#" class="btn">Contact Me</a>
-                     </div>
+                <h3>Front-End Developer & UI/UX Designer</h3>
+                <p>AKcode, I specialize in creating interactive, responsive, and user-friendly web applications. With a strong background in HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.js, I bring modern design and functionality to life on the web. My goal is to build seamless user experiences that not only look great but also perform exceptionally well across all devices and platforms.</p>
+                
+                <p>I am always focused on optimizing code for performance and maintaining clean, reusable components, ensuring that projects are scalable and easy to manage. Collaboration is key to my workflow, and I thrive in dynamic teams that embrace the latest technologies and agile methodologies.</p>
+                
+                <div class="skills-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Vue.js</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                </div>
+                
+                <div class="btns">
+                    <a href="#Contact" class="btn">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -74,30 +97,57 @@
             <div class="boxs">
 
                 <div class="box">
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <h3>Web Design</h3>
-                    <p>As a passionate Frontend Developer, I specialize in creating interactive, responsive, and user-friendly web applications. With a strong background in HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.js, I bring modern design and functionality to life on the web. My goal is to build seamless user experiences that not only look great but also perform exceptionally well across all devices and platforms.
-                        </p>
-
-                         <a href="#" class="btn">Read More</a>
+                    <div class="icon-wrapper">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating stunning and intuitive user interfaces that provide exceptional user experiences. I focus on modern design principles, accessibility, and user-centered design to ensure your website not only looks amazing but also functions perfectly.</p>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
 
                 <div class="box">
-                    <i class="fa-solid fa-rocket"></i>
-                    <h3>Fast Performance</h3>
-                    <p>As a passionate Frontend Developer, I specialize in creating interactive, responsive, and user-friendly web applications. With a strong background in HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.js, I bring modern design and functionality to life on the web. My goal is to build seamless user experiences that not only look great but also perform exceptionally well across all devices and platforms.
-                        
-                        </p>
-
-                         <a href="#" class="btn">Read More</a>
+                    <div class="icon-wrapper">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Optimizing websites for lightning-fast loading speeds and smooth performance across all devices. I implement best practices for code optimization, image compression, and efficient resource management.</p>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
 
                 <div class="box">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Clean Code</h3>
-                    <p>As a passionate Frontend Developer, I specialize in creating interactive, responsive, and user-friendly web applications. With a strong background in HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.js, I bring modern design and functionality to life on the web. My goal is to build seamless user experiences that not only look great but also perform exceptionally well across all devices and platforms.</p>
+                    <div class="icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Clean Development</h3>
+                    <p>Writing clean, maintainable, and scalable code using modern development practices. I follow industry standards and best practices to ensure your project is future-proof and easy to maintain.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
 
-                         <a href="#" class="btn">Read More</a>
+                <div class="box">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring your website looks and works perfectly on all devices - from desktop computers to tablets and smartphones. Mobile-first approach for optimal user experience.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="box">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Implementing SEO best practices to improve your website's visibility in search engines. Clean code structure, semantic HTML, and optimized content for better rankings.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="box">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Providing ongoing support and maintenance for your projects. I'm always available to help with updates, bug fixes, and improvements to keep your website running smoothly.</p>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
             </div>
         </div>
@@ -110,72 +160,126 @@
         <div class="contanier">
             <div class="sec-top">
                 <h1>Latest <span>Projects</span></h1>
+                <p>Explore my recent work and creative solutions</p>
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web </button>
+                <button class="filter-btn" data-filter="app">Web Apps</button>
+                <button class="filter-btn" data-filter="ui">System</button>
             </div>
 
             <div class="boxs">
 
-                <div class="box">
+                <div class="box" data-category="web">
                     <div class="box-hover">
-                        <span>Landing Page</span>
+                        <span>code-exam</span>
+                        <div class="project-links">
+                            <a href="https://code-exam-gules.vercel.app/" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/akcode55/code-exam" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
-                    <img src="img/project1.png" alt="">
+                    <img src="img/project1.png" alt="Modern Landing Page">
                 </div>
 
-                <div class="box">
+                <div class="box" data-category="web">
                     <div class="box-hover">
-                        <span>Landing Page</span>
+                        <span>BBSATAH World Arabic Code <span>
+                        <div class="project-links">
+                            <a href="https://bbsatah-phi.vercel.app/" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/BBSATAH/BBSATAH" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
-                    <img src="img/project2.png" alt="">
+                    <img src="img/project2.png" alt="E-Commerce Platform">
                 </div>
 
-                <div class="box">
+                <div class="box" data-category="app">
                     <div class="box-hover">
-                        <span>Landing Page</span>
+                        <span>online compiler</span>
+                        <div class="project-links">
+                            <a href="https://fluffy-bavarois-9953f9.netlify.app/" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://www.mediafire.com/file/dqqt676xnvgkg66/project-bolt-sb1-x8db6eoy.zip/file" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
-                    <img src="img/project3.png" alt="">
+                    <img src="img/project3.png" alt="Dashboard Design">
+                    
+                </div>
+                <div class="box" data-category="app">
+                    <div class="box-hover">
+                        <span>Programming Testing</span>
+                        <div class="project-links">
+                            <a href="https://akcode55.github.io/lang/" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/akcode55/lang" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="img/project7.PNG" alt="Mobile App UI">
                 </div>
 
-                <div class="box">
+                <div class="box" data-category="web">
                     <div class="box-hover">
-                        <span>Landing Page</span>
+                        <span>Image generating</span>
+                        <div class="project-links">
+                            <a href="https://akcode55.github.io/image-generating-ai/" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/akcode55/image-generating-ai" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
-                    <img src="img/project4.png" alt="">
+                    <img src="img/project4.png" alt="Corporate Website">
+                </div>
+                <div class="box" data-category="app">
+                        <div class="box-hover">
+                        <span>TODO APP</span>
+                        <div class="project-links">
+                            <a href="https://www.mediafire.com/file/cojyzckleeyw7qy/Todo_App_1_1.0.apk_online/file" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/akcode55/todo" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="img/project6.png" alt="Corporate Website">
                 </div>
 
-                <div class="box">
-                    <div class="box-hover">
-                        <span>Landing Page</span>
-                    </div>
-                    <img src="img/project5.png" alt="">
-                </div>
 
-                <div class="box">
+                <div class="box" data-category="ui">
                     <div class="box-hover">
-                        <span>Landing Page</span>
+                        <span>Pharmacy system (5$)</span>
+                        <span>للشراء تواصل عن طريق رقم الهاتف الموجود فيالجزء الخاص بالتواصل</span>
+                        <div class="project-links">
+                            <a href="#" class="project-link" title="View Project">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
                     </div>
-                    <img src="img/project6.png" alt="">
+                    <img src="img/project5.png" alt="Pharmacy system">
                 </div>
-                <div class="box">
-                    <div class="box-hover">
-                        <span>Landing Page</span>
-                    </div>
-                    <img src="img/project7.PNG" alt="">
-                </div>
+           
 
-                <div class="box">
-                    <div class="box-hover">
-                        <span>Landing Page</span>
-                    </div>
-                    <img src="img/project8.png" alt="">
-                </div>
-
-                <div class="box">
-                    <div class="box-hover">
-                        <span>Landing Page</span>
-                    </div>
-                    <img src="img/project6.png" alt="">
-                </div>
-
+               
             </div>
         </div>
     </section>
@@ -186,19 +290,111 @@
     <section id="Contact" class="contact">
         <div class="contanier">
             <div class="sec-top">
-                <h1>Contact <span>Me</span></h1>
+                <h1>Get In <span>Touch</span></h1>
+                <p>Let's work together to bring your ideas to life</p>
             </div>
 
-            <form action="">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="number" placeholder="Phone Number">
-                <input type="email" placeholder="Email Address">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <button class="btn">Send Message</button>
-            </form>
-        </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Email</h4>
+                            <p>akandiel817@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Phone</h4>
+                            <p>+20 1208462622</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Location</h4>
+                            <p>El-Mahalla El-Kubra, Egypt</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                           <a href="https://www.linkedin.com/in/ahmed-ak-code-24a7b228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/akcode55" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/AkCode55" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/akandiel656/" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contanier">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AK Code</h3>
+                    <p>Creating amazing digital experiences with modern web technologies. Let's build something great together!</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ahmed-ak-code-24a7b228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/akcode55" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/AkCode55" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/akandiel656/" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Web Design</li>
+                        <li>Frontend Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Responsive Design</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
+          
+        </div>
+    </footer>
+
     <script src="main.js"></script>
 </body>
 </html>
